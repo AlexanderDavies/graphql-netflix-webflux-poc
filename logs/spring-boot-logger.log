@@ -1,0 +1,1033 @@
+2021-08-10 08:40:04,136 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 32543 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:40:04,138 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:40:04,192 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:40:04,192 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:40:04,665 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:40:04,846 INFO ? [restartedMain] Finished Spring Data repository scanning in 177 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:40:05,769 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:40:06,099 INFO ? [restartedMain] $2a$10$Gsk6FFjmb1x.Ji6M99Jvpup7NFE9T7d3pV19A5M9H9NFnbPG0summ
+2021-08-10 08:40:06,924 INFO ? [restartedMain] 
+
+Using generated security password: 164da6f1-ae9c-4862-b14a-46fd9c0cf6cc
+
+2021-08-10 08:40:07,054 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:40:07,064 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 3.402 seconds (JVM running for 7.359)
+2021-08-10 08:40:07,311 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@12d95e82, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3f6e0795, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5b7ad7fe, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@673fcc56, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3fcab37d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@70d749be]
+2021-08-10 08:40:07,701 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@14e7afaf, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3e049ea, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@29a6c982, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@212893bf, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@89bcae2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@9356d02, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@16404f7f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@73109363, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@258a9b39, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7f5aff7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@13da33c1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@64262152, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@15843dbc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3f24a2ec, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7d22daf2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@28db48b5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1c86e9cf, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6af0b71]
+2021-08-10 08:40:14,449 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdf
+2021-08-10 08:40:14,475 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdf
+2021-08-10 08:40:45,531 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:40:45,542 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:41:59,507 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 32689 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:41:59,509 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:41:59,554 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:41:59,554 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:41:59,856 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:41:59,899 INFO ? [restartedMain] Finished Spring Data repository scanning in 40 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:42:00,410 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:42:00,621 INFO ? [restartedMain] $2a$10$pSPNd7bEWbXrdgfxT9E2weTjlm6NONjvFh3sLNMNk/z6MTb8JyO9S
+2021-08-10 08:42:01,104 INFO ? [restartedMain] 
+
+Using generated security password: d4f6c244-33f5-4618-8cfb-e0cb1700aa82
+
+2021-08-10 08:42:01,171 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:42:01,180 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 5.142 seconds (JVM running for 5.491)
+2021-08-10 08:42:01,302 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@63adda3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@6f91245a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@6d551338, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1e850812, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4e8209a4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@285747da]
+2021-08-10 08:42:01,482 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2782aeb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@203a5cfe, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@722593d5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3977678b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7a1b3d3c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@834432d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@56d1d2c5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5418bcab, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@774999c9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5d4e8126, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@55127b0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@143d2e55, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2f017aca, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6ef99bd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@a8f5277, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@773d9af5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@534e79f2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@29162057]
+2021-08-10 08:44:57,007 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 32689 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:44:57,007 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:44:57,114 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:44:57,124 INFO ? [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:44:57,236 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:44:57,341 INFO ? [restartedMain] $2a$10$25un5noQci2MHTke9sNNFuQ2K9VKk064OIUSauih/bLbTONdlrPWu
+2021-08-10 08:44:57,518 INFO ? [restartedMain] 
+
+Using generated security password: f0797614-3b95-4197-8c63-108a54621fc4
+
+2021-08-10 08:44:57,520 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:44:57,523 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.607 seconds (JVM running for 181.837)
+2021-08-10 08:44:57,525 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:44:57,533 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@60527b14, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@10231269, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@57b1615f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@37c309d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7005613d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@78bd950e]
+2021-08-10 08:44:57,553 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1cb868c6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@42f29a72, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@ecef43f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@53e3b1a5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@cc20d47, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5ab527a7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@23a34fc2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6d03bc8a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@71b73c58, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2ccb5d6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3b283712, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4b3f3b11, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3228bd2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6427fc65, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1ecdd754, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2c18902f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3bf3e265, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@60ecf5aa]
+2021-08-10 08:45:01,960 WARN ? [reactor-http-nio-2] Query failed to parse : '# Welcome to GraphiQL
+#
+# GraphiQL is an in-browser tool for writing, validating, and
+# testing GraphQL queries.
+#
+# Type queries into this side of the screen, and you will see intelligent
+# typeaheads aware of the current GraphQL type schema and live syntax and
+# validation errors highlighted within the text.
+#
+# GraphQL queries typically start with a "{" character. Lines that start
+# with a # are ignored.
+#
+# An example GraphQL query might look like:
+#
+#     {
+#       field(arg: "value") {
+#         subField
+#       }
+#     }
+#
+# Keyboard shortcuts:
+#
+#  Prettify Query:  Shift-Ctrl-P (or press the prettify button above)
+#
+#     Merge Query:  Shift-Ctrl-M (or press the merge button above)
+#
+#       Run Query:  Ctrl-Enter (or press the play button above)
+#
+#   Auto Complete:  Ctrl-Space (or just start typing)
+#
+
+'
+2021-08-10 08:45:06,734 WARN ? [reactor-http-nio-2] Query failed to parse : '# Welcome to GraphiQL
+#
+# GraphiQL is an in-browser tool for writing, validating, and
+# testing GraphQL queries.
+#
+# Type queries into this side of the screen, and you will see intelligent
+# typeaheads aware of the current GraphQL type schema and live syntax and
+# validation errors highlighted within the text.
+#
+# GraphQL queries typically start with a "{" character. Lines that start
+# with a # are ignored.
+#
+# An example GraphQL query might look like:
+#
+#     {
+#       field(arg: "value") {
+#         subField
+#       }
+#     }
+#
+# Keyboard shortcuts:
+#
+#  Prettify Query:  Shift-Ctrl-P (or press the prettify button above)
+#
+#     Merge Query:  Shift-Ctrl-M (or press the merge button above)
+#
+#       Run Query:  Ctrl-Enter (or press the play button above)
+#
+#   Auto Complete:  Ctrl-Space (or just start typing)
+#
+
+'
+2021-08-10 08:45:07,275 WARN ? [reactor-http-nio-2] Query failed to parse : '# Welcome to GraphiQL
+#
+# GraphiQL is an in-browser tool for writing, validating, and
+# testing GraphQL queries.
+#
+# Type queries into this side of the screen, and you will see intelligent
+# typeaheads aware of the current GraphQL type schema and live syntax and
+# validation errors highlighted within the text.
+#
+# GraphQL queries typically start with a "{" character. Lines that start
+# with a # are ignored.
+#
+# An example GraphQL query might look like:
+#
+#     {
+#       field(arg: "value") {
+#         subField
+#       }
+#     }
+#
+# Keyboard shortcuts:
+#
+#  Prettify Query:  Shift-Ctrl-P (or press the prettify button above)
+#
+#     Merge Query:  Shift-Ctrl-M (or press the merge button above)
+#
+#       Run Query:  Ctrl-Enter (or press the play button above)
+#
+#   Auto Complete:  Ctrl-Space (or just start typing)
+#
+
+'
+2021-08-10 08:46:05,618 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 32920 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:46:05,620 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:46:05,668 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:46:05,668 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:46:05,984 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:46:06,029 INFO ? [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:46:06,640 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:46:06,862 INFO ? [restartedMain] $2a$10$fwGCHa9gftpkdyx6LJKQKO8/ShHU6rP3A97//HiH54XXgDlr8rgDa
+2021-08-10 08:46:07,359 INFO ? [restartedMain] 
+
+Using generated security password: 226a4344-38f7-4aaa-bca8-400721e50cec
+
+2021-08-10 08:46:07,442 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:46:07,451 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 5.308 seconds (JVM running for 5.668)
+2021-08-10 08:46:07,571 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@625fe777, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4b4a84b0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2c2ed512, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2c214905, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@315877a9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2e281a36]
+2021-08-10 08:46:07,748 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@449d4169, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@34518b89, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@442b6096, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7505cc8d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5b3d4d4d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@63088860, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7cb87b47, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2702a1f9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@16e4d771, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@31880645, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@ed53170, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3cea443a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@c055389, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7d4ec662, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5a37360a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@341272e2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@12adf6f2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@195b5f13]
+2021-08-10 08:47:17,429 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 32920 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:47:17,429 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:47:17,555 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:47:17,565 INFO ? [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:47:17,679 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:47:17,801 INFO ? [restartedMain] $2a$10$s.llRaszyjBNyG4nTxyqDuXfeJh/oZYPDUFew78fv1VkHz8niKTAK
+2021-08-10 08:47:17,968 INFO ? [restartedMain] 
+
+Using generated security password: 91f40b2c-01af-40ea-bda9-b9e279bf7763
+
+2021-08-10 08:47:17,971 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:47:17,973 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 3.588 seconds (JVM running for 76.191)
+2021-08-10 08:47:17,975 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:47:17,984 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1e40cc61, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@39c50f76, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1c6534f8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@696d63de, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@71569956, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@60f986b5]
+2021-08-10 08:47:18,005 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@67a35874, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@46646414, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5783c585, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@58719ece, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@256c0d4c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@40cd8931, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@92bd340, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5d78ab45, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@183bcbcb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@34134dfc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@637539ed, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7bcf9445, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3d6c7d64, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@133eab98, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@594e4243, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5ea48893, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7d597e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@66f95082]
+2021-08-10 08:47:21,488 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 32920 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:47:21,488 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:47:21,578 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:47:21,587 INFO ? [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:47:21,681 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:47:21,791 INFO ? [restartedMain] $2a$10$WLQtU0tsdw0B4/JO9FAk/eGKAWKM12IJreNlcKOZ.KSgXRBZSaOIK
+2021-08-10 08:47:21,973 INFO ? [restartedMain] 
+
+Using generated security password: 09a77190-a70c-4301-941c-f04ab02a186a
+
+2021-08-10 08:47:21,976 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:47:21,978 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.511 seconds (JVM running for 80.196)
+2021-08-10 08:47:21,979 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:47:21,987 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7b53246d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@57244ef9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5c1f2ef4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@38206143, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5a325a66, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2f94845f]
+2021-08-10 08:47:22,005 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3bfcff17, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@37a3a1d1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@e7ddb75, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4f08cf56, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@13d095e7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@39571365, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5911c149, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@50ead742, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@47020f15, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@464fe0ab, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@11037aa2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1755ef07, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@40f8305f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@798bda53, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@735779aa, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4bc29d10, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4ab926ff, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6d4734b9]
+2021-08-10 08:47:23,126 WARN ? [reactor-http-nio-2] Query failed to validate : 'query ($accountId: String!) {
+  account(accountId: $accountId) {
+    accountId
+    accountName
+    balance
+  }
+  transaction(accountId: $accountId) {
+    transactionId
+    amount
+    date
+  }
+}
+	'
+2021-08-10 08:47:49,724 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33033 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:47:49,725 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:47:49,771 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:47:49,771 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:47:50,044 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:47:50,088 INFO ? [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:47:50,594 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:47:50,802 INFO ? [restartedMain] $2a$10$PxBvF2BBlCHJw7dqYn6z7u.nt5XlPprtekcRs/QluTiCQEcbYAWvC
+2021-08-10 08:47:51,268 INFO ? [restartedMain] 
+
+Using generated security password: ac8d0cf1-45d8-42fa-8a05-f8dd6ae0ef61
+
+2021-08-10 08:47:51,343 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:47:51,351 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 1.963 seconds (JVM running for 2.297)
+2021-08-10 08:47:51,473 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@35c3cd33, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@161b750c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2459232f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5d5c47a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2ed42ba6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@63aa8865]
+2021-08-10 08:47:51,668 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@611c9ac0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@385eca0c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@28f7fec3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@314fb9fc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3480ef8f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7ac04db9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6d56a5c4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@219a61cb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@12551ee0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6a802496, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@32a0c487, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@40467f21, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7adedbd7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1191f48e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@25a18ec7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@56ed5225, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5ae13b4c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@444a811a]
+2021-08-10 08:48:30,122 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33033 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:48:30,122 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:48:30,232 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:48:30,242 INFO ? [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:48:30,352 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:48:30,457 INFO ? [restartedMain] $2a$10$EEevH/AkTzPXxkjsj5wpp.ESdYHUV3nRD70RzAjUtCvucBj.nl036
+2021-08-10 08:48:30,623 INFO ? [restartedMain] 
+
+Using generated security password: f09ebf1e-53f9-4c48-b624-e160f595f102
+
+2021-08-10 08:48:30,626 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:48:30,628 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.544 seconds (JVM running for 41.575)
+2021-08-10 08:48:30,630 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:48:30,639 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@555602d9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5851e8e5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2aa83f88, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2244d3c2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@47e14d99, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@10a09340]
+2021-08-10 08:48:30,659 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@16dcf2e2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4870f58f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3e4ebb9d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@58895aa1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@29b3e8b0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@66a0ac84, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2d79619e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3fb76ac2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@977e3ec, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6ad0baca, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@c43439f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@8a6d9af, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3ef833d4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5191d82b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@47d8363d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@798df4c8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6140ebe, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@599bced7]
+2021-08-10 08:48:43,604 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33124 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:48:43,606 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:48:43,651 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:48:43,651 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:48:43,915 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:48:43,956 INFO ? [restartedMain] Finished Spring Data repository scanning in 39 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:48:44,478 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:48:44,683 INFO ? [restartedMain] $2a$10$G2HlTcf7KdezycD8XeYFOOmFjQ8ccP..LFC/Gz3tZsOkS0xcD95Z.
+2021-08-10 08:48:45,148 INFO ? [restartedMain] 
+
+Using generated security password: bfd1625a-e198-46ef-ad62-dabc8d1202a0
+
+2021-08-10 08:48:45,215 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:48:45,223 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 1.923 seconds (JVM running for 2.271)
+2021-08-10 08:48:45,340 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4a22468e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@59e9cfd1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@76593675, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@74b1624, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5f053675, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4805ed03]
+2021-08-10 08:48:45,537 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@b174b03, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3828f0a8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1303c6ca, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1cad44c1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2d534b04, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@528153b6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5fb9faba, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@29c436c0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1e784397, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@463cbf0d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@56c0f15a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5e3aaf74, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2823bdf, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@21e53855, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@707e5712, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7bb40766, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@687b970c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@60543dc6]
+2021-08-10 08:50:23,510 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33124 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:50:23,510 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:50:23,623 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:50:23,634 INFO ? [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:50:23,750 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:50:23,862 INFO ? [restartedMain] $2a$10$TfSAvOKB./3cM.V5d3IuU.n26Nh4Cf/QPv5.k1D.xXAzwRFjvGZ6q
+2021-08-10 08:50:24,053 INFO ? [restartedMain] 
+
+Using generated security password: ccb1717e-4236-4be8-859a-97ffbcd11e15
+
+2021-08-10 08:50:24,056 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:50:24,058 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 3.733 seconds (JVM running for 101.109)
+2021-08-10 08:50:24,060 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:50:24,068 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@22897114, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1a7cf685, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@670a54de, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@34cda44e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5d257212, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@20907fed]
+2021-08-10 08:50:24,088 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@20c228ef, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@597fc168, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@52c8404d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@432fe38, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@35062b01, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@12d5c848, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@20f2877, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@115fd530, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1585ba39, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@29aea749, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@52996e9b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3d00d7ad, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@56ce646, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@59248d4d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@40d0dd44, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7bd6d74c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@196a40a6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6459e823]
+2021-08-10 08:52:40,661 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33124 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:52:40,661 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:52:40,752 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:52:40,760 INFO ? [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:52:40,854 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:52:40,970 INFO ? [restartedMain] $2a$10$QCsOVgo5DtqwMh8vUX0D4.UnAh2EulLmA3C4cosa/USSWCSyF.kaS
+2021-08-10 08:52:41,046 WARN ? [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration': Unsatisfied dependency expressed through method 'setSecurityWebFilterChains' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityWebFilterChain' defined in class path resource [com/au/alexanderdavies/graphqlnetflixwebfluxpoc/config/WebFluxSecurity.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method and() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec.Access
+	Syntax error, insert ";" to complete BlockStatements
+
+2021-08-10 08:52:41,049 INFO ? [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-10 08:52:41,072 ERROR ? [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration': Unsatisfied dependency expressed through method 'setSecurityWebFilterChains' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityWebFilterChain' defined in class path resource [com/au/alexanderdavies/graphqlnetflixwebfluxpoc/config/WebFluxSecurity.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method and() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec.Access
+	Syntax error, insert ";" to complete BlockStatements
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.GraphqlNetflixWebfluxPocApplication.main(GraphqlNetflixWebfluxPocApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityWebFilterChain' defined in class path resource [com/au/alexanderdavies/graphqlnetflixwebfluxpoc/config/WebFluxSecurity.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method and() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec.Access
+	Syntax error, insert ";" to complete BlockStatements
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method and() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec.Access
+	Syntax error, insert ";" to complete BlockStatements
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 41 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method and() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec.Access
+	Syntax error, insert ";" to complete BlockStatements
+
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity.securityWebFilterChain(WebFluxSecurity.java:43)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity$$EnhancerBySpringCGLIB$$11b38827.CGLIB$securityWebFilterChain$1(<generated>)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity$$EnhancerBySpringCGLIB$$11b38827$$FastClassBySpringCGLIB$$1dd1e857.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity$$EnhancerBySpringCGLIB$$11b38827.securityWebFilterChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+2021-08-10 08:52:52,586 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33124 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:52:52,586 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:52:52,669 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:52:52,679 INFO ? [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:52:52,768 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:52:52,874 INFO ? [restartedMain] $2a$10$ryF//LOkU2RMJk70H1J2t.tOuDh4HbAn8twFfRjrNAFeg/0qI/prO
+2021-08-10 08:52:52,951 WARN ? [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration': Unsatisfied dependency expressed through method 'setSecurityWebFilterChains' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityWebFilterChain' defined in class path resource [com/au/alexanderdavies/graphqlnetflixwebfluxpoc/config/WebFluxSecurity.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method build() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec
+
+2021-08-10 08:52:52,954 INFO ? [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-10 08:52:52,955 ERROR ? [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration': Unsatisfied dependency expressed through method 'setSecurityWebFilterChains' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityWebFilterChain' defined in class path resource [com/au/alexanderdavies/graphqlnetflixwebfluxpoc/config/WebFluxSecurity.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method build() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:720)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.GraphqlNetflixWebfluxPocApplication.main(GraphqlNetflixWebfluxPocApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityWebFilterChain' defined in class path resource [com/au/alexanderdavies/graphqlnetflixwebfluxpoc/config/WebFluxSecurity.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method build() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1598)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1451)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:760)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.web.server.SecurityWebFilterChain]: Factory method 'securityWebFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method build() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 41 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method build() is undefined for the type ServerHttpSecurity.AuthorizeExchangeSpec
+
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity.securityWebFilterChain(WebFluxSecurity.java:43)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity$$EnhancerBySpringCGLIB$$11b38827.CGLIB$securityWebFilterChain$1(<generated>)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity$$EnhancerBySpringCGLIB$$11b38827$$FastClassBySpringCGLIB$$1dd1e857.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.config.WebFluxSecurity$$EnhancerBySpringCGLIB$$11b38827.securityWebFilterChain(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
+2021-08-10 08:53:34,693 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33124 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:53:34,693 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:53:34,775 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:53:34,783 INFO ? [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:53:34,858 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:53:34,889 INFO ? [restartedMain] 
+
+Using generated security password: 85468495-a3bc-4b09-8869-e0c5bff8de08
+
+2021-08-10 08:53:34,965 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:53:34,967 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.304 seconds (JVM running for 292.022)
+2021-08-10 08:53:34,971 INFO ? [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ReactiveSecurityAutoConfiguration.EnableWebFluxSecurityConfiguration matched:
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.web.server.WebFilterChainProxy; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.ReactiveWebApplicationCondition found ConfigurableReactiveWebEnvironment; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.RSocketSecurityEnabledCondition @ConditionalOnBean (types: org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler; SearchStrategy: all) did not find any beans of type org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler (ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.ReactiveAuthenticationManager,org.springframework.security.core.userdetails.ReactiveUserDetailsService,org.springframework.security.oauth2.jwt.ReactiveJwtDecoder,org.springframework.security.oauth2.server.resource.introspection.ReactiveOpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) did not find any beans of type org.springframework.security.config.annotation.ObjectPostProcessor (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-08-10 08:53:34,989 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1a83d39d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@113a3a26, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3d357748, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@35cf0673, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@31d4246c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@717fc37a]
+2021-08-10 08:53:35,012 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2369d203, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4875a790, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7db193ed, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4c843bc1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@21100198, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@443c6b0d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3563b69c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5854d9c2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@79e90f91, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5e2a77a2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@76d5fdad, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@8b1a07c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3995a37c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@340f548b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6deeff32, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@685910b3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7c43c087, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@32a66888]
+2021-08-10 08:53:44,512 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33124 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:53:44,512 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:53:44,589 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:53:44,597 INFO ? [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:53:44,672 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:53:44,794 INFO ? [restartedMain] $2a$10$uQ.yZsabsygeP5BRwmUDXeOl8eOmCz1LyLA4Qd/Uyf3GCVDZuJSd.
+2021-08-10 08:53:44,962 INFO ? [restartedMain] 
+
+Using generated security password: b84a820b-573c-4527-aceb-c739ffc46ed5
+
+2021-08-10 08:53:44,965 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:53:44,968 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.474 seconds (JVM running for 302.022)
+2021-08-10 08:53:44,969 INFO ? [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ReactiveSecurityAutoConfiguration.EnableWebFluxSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.web.server.WebFilterChainProxy; SearchStrategy: all) found beans of type 'org.springframework.security.web.server.WebFilterChainProxy' org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration.WebFilterChainFilter (OnBeanCondition)
+      Matched:
+         - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.ReactiveAuthenticationManager,org.springframework.security.core.userdetails.ReactiveUserDetailsService,org.springframework.security.oauth2.jwt.ReactiveJwtDecoder,org.springframework.security.oauth2.server.resource.introspection.ReactiveOpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.ReactiveUserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+         - AnyNestedCondition 1 matched 1 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.ReactiveWebApplicationCondition found ConfigurableReactiveWebEnvironment; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.RSocketSecurityEnabledCondition @ConditionalOnBean (types: org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler; SearchStrategy: all) did not find any beans of type org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler (ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-08-10 08:53:44,975 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7444359d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@b08dd8a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7fe0a6f3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@65e15ca0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@305c655c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7d750a50]
+2021-08-10 08:53:44,990 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@37104748, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1b3b014, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@28b9d4f3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1b0df62a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2e12d804, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@323dfec2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5445aa3a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@208dba3e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@18e794d3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@45f1a2e3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3c9cc41d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@718dd5fa, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@55689614, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1d46d0e0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@47204379, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@581d7c62, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@49548943, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@62be9159]
+2021-08-10 08:53:59,596 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33124 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:53:59,596 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:53:59,673 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:53:59,682 INFO ? [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:53:59,752 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:53:59,790 INFO ? [restartedMain] 
+
+Using generated security password: 3b127890-69a8-42a0-a881-563b2f3bd3fc
+
+2021-08-10 08:53:59,854 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:53:59,856 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.287 seconds (JVM running for 316.911)
+2021-08-10 08:53:59,857 INFO ? [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ReactiveSecurityAutoConfiguration.EnableWebFluxSecurityConfiguration matched:
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.web.server.WebFilterChainProxy; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.ReactiveWebApplicationCondition found ConfigurableReactiveWebEnvironment; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.RSocketSecurityEnabledCondition @ConditionalOnBean (types: org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler; SearchStrategy: all) did not find any beans of type org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler (ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.ReactiveAuthenticationManager,org.springframework.security.core.userdetails.ReactiveUserDetailsService,org.springframework.security.oauth2.jwt.ReactiveJwtDecoder,org.springframework.security.oauth2.server.resource.introspection.ReactiveOpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) did not find any beans of type org.springframework.security.config.annotation.ObjectPostProcessor (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-08-10 08:53:59,864 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@fd4d0c6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5b52b935, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3f23ffa7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@be39b6b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@22183831, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@6c4db656]
+2021-08-10 08:53:59,879 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@647414d7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@19404697, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1dbe7d86, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@74d564fa, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3043041b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2bac987a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@451082c4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1abddc28, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@327670b8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7d5651c4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3c11fa08, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@48393d3e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@494b7731, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@65cc7ad, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@352ebcd4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@347fb782, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@261fbcc3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@469e6602]
+2021-08-10 08:54:27,125 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33270 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:54:27,126 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:54:27,171 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:54:27,171 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:54:27,506 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:54:27,656 INFO ? [restartedMain] Finished Spring Data repository scanning in 147 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:54:28,341 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:54:28,574 INFO ? [restartedMain] 
+
+Using generated security password: ebd6f1c9-b321-47b9-8514-56e359a60dcf
+
+2021-08-10 08:54:29,286 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:54:29,295 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 2.505 seconds (JVM running for 6.13)
+2021-08-10 08:54:29,500 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@65244b9c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@391e658c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@fc21b8d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@50c1b663, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@177e6f4c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5d864a2a]
+2021-08-10 08:54:29,820 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1fcfcf0f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@231d3dd4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6171217b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4cf97407, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2daf7d20, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@671606dc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@f0499bc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@8da9d17, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5e4aa751, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@93d7aa2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@225fdb40, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7eb1c839, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@754a8891, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@17c004f0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4b995893, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3b19b1d9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1a36a82b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@dc6d819]
+2021-08-10 08:54:40,775 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33270 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:54:40,775 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:54:40,909 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:54:40,925 INFO ? [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:54:41,115 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:54:41,278 INFO ? [restartedMain] $2a$10$GXbVjtqdApPJOsuSDkS3QexvMjY5cG5rUVNIS4n.vqj8rlF9E8cKG
+2021-08-10 08:54:41,511 INFO ? [restartedMain] 
+
+Using generated security password: b9df7dc0-4a0b-434f-9166-1eea65e8de1d
+
+2021-08-10 08:54:41,522 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:54:41,525 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.783 seconds (JVM running for 18.361)
+2021-08-10 08:54:41,530 INFO ? [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ReactiveSecurityAutoConfiguration.EnableWebFluxSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.web.server.WebFilterChainProxy; SearchStrategy: all) found beans of type 'org.springframework.security.web.server.WebFilterChainProxy' org.springframework.security.config.annotation.web.reactive.WebFluxSecurityConfiguration.WebFilterChainFilter (OnBeanCondition)
+      Matched:
+         - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.ReactiveAuthenticationManager,org.springframework.security.core.userdetails.ReactiveUserDetailsService,org.springframework.security.oauth2.jwt.ReactiveJwtDecoder,org.springframework.security.oauth2.server.resource.introspection.ReactiveOpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.ReactiveUserDetailsService' userDetailsService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+         - AnyNestedCondition 1 matched 1 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.ReactiveWebApplicationCondition found ConfigurableReactiveWebEnvironment; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition.RSocketSecurityEnabledCondition @ConditionalOnBean (types: org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler; SearchStrategy: all) did not find any beans of type org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler (ReactiveUserDetailsServiceAutoConfiguration.ReactiveUserDetailsServiceCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-08-10 08:54:41,543 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5c569024, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3c80848a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@37c39d54, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2d0b3fee, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@45345ddb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7da83523]
+2021-08-10 08:54:41,574 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7071d7e2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3b08c2ec, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@37b6460e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7fed44ca, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1dd4212, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7c3fef67, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@793c50d8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6ce29021, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@744927d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4831125, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1f223bfd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@67b9c3a0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@44cd7250, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@58db49d5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@56286ce0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7fa50146, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@50d5a310, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@52c2dd3e]
+2021-08-10 08:54:45,044 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33270 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:54:45,044 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:54:45,129 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:54:45,139 INFO ? [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:54:45,244 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:54:45,369 INFO ? [restartedMain] $2a$10$iG.FyIvF3JLwVEsmyWDyFuhYkbRcu0SK67sGif0IB.7xHQJnrz3Wy
+2021-08-10 08:54:45,549 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:54:45,552 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.528 seconds (JVM running for 22.387)
+2021-08-10 08:54:45,553 INFO ? [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) did not find any beans of type org.springframework.security.config.annotation.ObjectPostProcessor (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-08-10 08:54:45,565 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3941264f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1ed8bbfe, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@22bbe8f1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@52522e5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@35660f50, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@6e3a4549]
+2021-08-10 08:54:45,590 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2f5b75c7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4c80934d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@11cc7ecb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@78e211ce, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@ce3b658, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@44b15672, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@36794209, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5efd5969, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4fbd7598, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@171b8db, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7d64cbf6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@49e6f322, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6d535e33, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@61e89422, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3a08c892, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@44095312, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@33dc3f66, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1630f4bb]
+2021-08-10 08:54:49,093 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33270 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:54:49,093 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:54:49,171 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:54:49,180 INFO ? [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:54:49,268 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:54:49,379 INFO ? [restartedMain] $2a$10$fGfdWAFXgt2VbkNdU3GdyOlmQlOufzXiNxtmKzyn2UWRhjy7aM212
+2021-08-10 08:54:49,521 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:54:49,524 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.462 seconds (JVM running for 26.359)
+2021-08-10 08:54:49,524 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:54:49,533 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@51e15019, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5d72b695, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@118268f0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@191e1d86, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@42a4f724, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@a2a27fb]
+2021-08-10 08:54:49,553 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1b434631, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@28687721, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@9c9183f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@76be85ff, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@774d27d7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1c778760, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5dbe7c31, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5f2d9b04, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@41407ca9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@612cbf66, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4fdd1886, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7c1b4fc2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3efcc1dc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3a2f8eea, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1d11a801, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3b52813e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@63f845a9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2566dfe2]
+2021-08-10 08:55:06,165 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33270 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:55:06,165 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:55:06,247 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:55:06,256 INFO ? [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:55:06,347 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:55:06,460 INFO ? [restartedMain] $2a$10$AF8L.92JfqxBMGa4HWKN9.xppaIAUDgyh2..K49eOUo72uENzaFQq
+2021-08-10 08:55:06,606 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:55:06,608 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.472 seconds (JVM running for 43.444)
+2021-08-10 08:55:06,609 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:55:06,618 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@68ce6ccf, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@70ae1d1a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@31a2e1d8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7329587d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@681aeac3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@685c7c17]
+2021-08-10 08:55:06,635 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@19607858, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7277d49a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@11a1193d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@48de8042, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@526683b9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1ef94e6b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@708c478, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3be8884b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5d75bfc4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@9ab3817, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@48c1065e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@371465dd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@47ef6764, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1754940e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5767934c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@43493ef0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7f21b5ba, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4c66aab4]
+2021-08-10 08:55:15,643 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:55:15,670 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:55:25,119 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33288 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:55:25,121 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:55:25,162 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:55:25,162 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:55:25,504 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:55:25,637 INFO ? [restartedMain] Finished Spring Data repository scanning in 130 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:55:26,312 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:55:26,594 INFO ? [restartedMain] $2a$10$OwCcAyKSuBmizeiPia3nOev2P5IOPBSfDMbsHDPqI8SF7aABjXp/i
+2021-08-10 08:55:27,349 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:55:27,357 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 2.577 seconds (JVM running for 3.11)
+2021-08-10 08:55:27,560 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3dbced6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@498b08b4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4d06b90c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@79a06b2f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2450b7b3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@350fd525]
+2021-08-10 08:55:27,855 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5f69e40f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@50e83928, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@e6cd283, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7195ad8a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@614c762b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@707c3253, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@186c1e15, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4449196f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4636d2e3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@57c99edc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2f2dbe86, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2323586d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@53722720, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@48566cec, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@acd32ee, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3394e3ea, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@711d999f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@ad7aa5c]
+2021-08-10 08:55:36,243 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:55:36,269 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:55:39,915 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:55:39,917 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:55:56,087 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33288 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:55:56,087 INFO ? [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-10 08:55:56,200 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:55:56,212 INFO ? [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:55:56,369 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:55:56,498 INFO ? [restartedMain] $2a$10$0MJ5ZW7MQHV2buMKJ/1CV./pFvMNnKeuXoUePTVv1H5mCQwnAbcYu
+2021-08-10 08:55:56,682 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:55:56,685 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 3.688 seconds (JVM running for 32.438)
+2021-08-10 08:55:56,687 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:55:56,698 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@75df0c1a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@82180d5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@15e00ca7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4d984e26, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@40aa2453, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@440933bb]
+2021-08-10 08:55:56,731 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3717e61b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2d829cdb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2d1a4c54, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@12b8d7af, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1a17dcdd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@234aff00, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5ccd6fd1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@89cde48, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2cc90ab2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@580f42d4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6f0b1de3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@10bf0d4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@65f3e6dd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@47c80155, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@709bf84a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2ec82bdd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5477f5d7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@533284a5]
+2021-08-10 08:55:58,215 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:55:58,223 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:56:09,398 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33325 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:56:09,400 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:56:09,445 INFO ? [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-10 08:56:09,445 INFO ? [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-10 08:56:09,698 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:56:09,739 INFO ? [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:56:10,223 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:56:10,430 INFO ? [restartedMain] $2a$10$D3KjO4QnuzdVQbXsVfqB3.nI1GKe5lfRfF4rhaD2yzR6CkIFmx3yG
+2021-08-10 08:56:10,942 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:56:10,950 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 1.854 seconds (JVM running for 2.195)
+2021-08-10 08:56:11,076 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@33d5a8f0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@12489e23, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@5d4149fd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@d705a7a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@13fcf10c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4513dcd6]
+2021-08-10 08:56:11,267 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4098df4f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2fb4ce73, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@f79bceb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5e29ad45, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@58cd6368, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5183e954, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@13df996b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@8f4dd0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@33eaa88a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7d6d2eea, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1216f4ed, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@680ddab2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@ec591c1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1acbe48d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3fdfdaa5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@39814fa6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1b688ace, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5e42eaa2]
+2021-08-10 08:56:17,336 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:56:17,363 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:56:20,065 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:56:20,067 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:58:39,726 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33325 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:58:39,726 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:58:39,839 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:58:39,849 INFO ? [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:58:39,981 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:58:40,098 INFO ? [restartedMain] $2a$10$WxMqa81IR5UsRHxSPfkRgeGCDNH.oCMon.YxBw97CiarEOnr/d//u
+2021-08-10 08:58:40,263 INFO ? [restartedMain] 
+
+Using generated security password: 202a85b8-f458-4cdc-b348-e9ca93f058cf
+
+2021-08-10 08:58:40,269 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:58:40,272 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 3.703 seconds (JVM running for 151.521)
+2021-08-10 08:58:40,274 INFO ? [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration#inMemoryUserDetailsManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-08-10 08:58:40,282 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@fd435cb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2dfdc435, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@cc6fa9f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2785533, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2cac42da, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@6f33e716]
+2021-08-10 08:58:40,301 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@db2b222, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1a157760, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@50e10eb9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@466d91b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1c5d4817, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2d42828b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@750ed55c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@471264e7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@317981e2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@8160b9c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@b319bf7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5fd0e32a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@225b0fa3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1aa9ba9f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1d40741e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@45510d2f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3f0d2431, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@68270c0d]
+2021-08-10 08:58:43,802 INFO ? [reactor-http-nio-2] Fetching account: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:58:43,807 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:59:04,948 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33325 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:59:04,948 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:59:05,046 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:59:05,060 INFO ? [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:59:05,163 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:59:05,299 INFO ? [restartedMain] $2a$10$Khx5Y6ZqeGhR6S5cBtjit.dRrRmKJ.tYW0XTup0VvO43G9htG0.ca
+2021-08-10 08:59:05,469 INFO ? [restartedMain] 
+
+Using generated security password: 26f8faaa-d678-4e2f-a700-92129f36811c
+
+2021-08-10 08:59:05,472 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:59:05,475 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.555 seconds (JVM running for 176.724)
+2021-08-10 08:59:05,475 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:59:05,482 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@945ebcc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@4cf76474, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@160daaf2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1346f2b0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@35fb609f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@42d86690]
+2021-08-10 08:59:05,499 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@30e54a87, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@94f5a09, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7d5950ff, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4c93b4e3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@56387e84, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2554f958, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@123d9ba5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@43d801ad, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@56818b0c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@541d26bd, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2a037f28, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@29d5d6ac, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7356f171, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@4ec30968, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7f88c5a7, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@78ef0c4c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3c76b759, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6aa861f6]
+2021-08-10 08:59:12,675 ERROR ? [reactor-http-nio-2] Exception while executing data fetcher for /account: An Authentication object was not found in the SecurityContext
+org.springframework.security.authentication.AuthenticationCredentialsNotFoundException: An Authentication object was not found in the SecurityContext
+	at org.springframework.security.access.intercept.AbstractSecurityInterceptor.credentialsNotFound(AbstractSecurityInterceptor.java:333)
+	at org.springframework.security.access.intercept.AbstractSecurityInterceptor.beforeInvocation(AbstractSecurityInterceptor.java:200)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.au.alexanderdavies.graphqlnetflixwebfluxpoc.datafetcher.AccountDataFetcher$$EnhancerBySpringCGLIB$$f5c569c2.getAccount(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at com.netflix.graphql.dgs.internal.DgsSchemaProvider.invokeDataFetcher(DgsSchemaProvider.kt:450)
+	at com.netflix.graphql.dgs.internal.DgsSchemaProvider.access$invokeDataFetcher(DgsSchemaProvider.kt:74)
+	at com.netflix.graphql.dgs.internal.DgsSchemaProvider$createBasicDataFetcher$1.get(DgsSchemaProvider.kt:301)
+	at graphql.execution.ExecutionStrategy.fetchField(ExecutionStrategy.java:270)
+	at graphql.execution.ExecutionStrategy.resolveFieldWithInfo(ExecutionStrategy.java:203)
+	at graphql.execution.AsyncExecutionStrategy.execute(AsyncExecutionStrategy.java:60)
+	at graphql.execution.Execution.executeOperation(Execution.java:165)
+	at graphql.execution.Execution.execute(Execution.java:104)
+	at graphql.GraphQL.execute(GraphQL.java:557)
+	at graphql.GraphQL.parseValidateAndExecute(GraphQL.java:482)
+	at graphql.GraphQL.executeAsync(GraphQL.java:446)
+	at com.netflix.graphql.dgs.internal.BaseDgsQueryExecutor.baseExecute(DefaultDgsQueryExecutor.kt:226)
+	at com.netflix.graphql.dgs.reactive.internal.DefaultDgsReactiveQueryExecutor$execute$2.apply(DefaultDgsReactiveQueryExecutor.kt:71)
+	at com.netflix.graphql.dgs.reactive.internal.DefaultDgsReactiveQueryExecutor$execute$2.apply(DefaultDgsReactiveQueryExecutor.kt:40)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onComplete(FluxDefaultIfEmpty.java:109)
+	at reactor.core.publisher.Operators.complete(Operators.java:137)
+	at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:145)
+	at reactor.core.publisher.MonoFlatMap.subscribeOrReturn(MonoFlatMap.java:53)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4323)
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:128)
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:157)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127)
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:295)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:468)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:260)
+	at reactor.netty.channel.FluxReceive.request(FluxReceive.java:129)
+	at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:162)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.request(FluxPeek.java:138)
+	at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:162)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onSubscribe(MonoCollect.java:103)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onSubscribe(FluxMap.java:92)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onSubscribe(FluxPeek.java:171)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onSubscribe(FluxMap.java:92)
+	at reactor.netty.channel.FluxReceive.startReceiver(FluxReceive.java:167)
+	at reactor.netty.channel.FluxReceive.lambda$subscribe$2(FluxReceive.java:146)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-08-10 08:59:12,680 INFO ? [reactor-http-nio-2] Fetching transactions for accountId: hvQ3b0uom9H6LdgO90Q12345asdfg
+2021-08-10 08:59:32,186 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33325 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:59:32,186 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:59:32,282 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:59:32,291 INFO ? [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:59:32,380 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:59:32,481 INFO ? [restartedMain] $2a$10$lpEnHm7s50rpptLecXH.OOB8B31ByPD9buYXHlgP.bq1j6W0eKYo.
+2021-08-10 08:59:32,658 INFO ? [restartedMain] 
+
+Using generated security password: 6044135c-7c1a-4b0d-881b-a27f807e9f7d
+
+2021-08-10 08:59:32,661 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:59:32,663 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.509 seconds (JVM running for 203.913)
+2021-08-10 08:59:32,664 INFO ? [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ReactiveSecurityAutoConfiguration.EnableWebFluxSecurityConfiguration matched:
+      - found ConfigurableReactiveWebEnvironment (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.web.server.WebFilterChainProxy; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-08-10 08:59:32,671 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@fb8bab4, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2c541d94, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@3bbc00dc, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2f1ff4d3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@6538869e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@698c8f10]
+2021-08-10 08:59:32,687 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3449ed66, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@375183a8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@72133f3a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3fa64b64, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@44ffb32b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7f8834df, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@14893efb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1979ba65, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@20a6248a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1eb6c28d, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@43155946, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@17eb79d3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6789dd0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2e728538, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@47c436d9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@b2dfa13, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@49f960bb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@731867f9]
+2021-08-10 08:59:39,219 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33325 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:59:39,219 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:59:39,297 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:59:39,305 INFO ? [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:59:39,389 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:59:39,489 INFO ? [restartedMain] $2a$10$uwZ2HT8gNJ7xyDj05V388ubyt3bFshs6g6WuCu93j4xyDCVzZJ9FC
+2021-08-10 08:59:39,661 INFO ? [restartedMain] 
+
+Using generated security password: 466715ad-8a02-4ed2-bcf6-7505a2e46e54
+
+2021-08-10 08:59:39,664 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:59:39,667 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.47 seconds (JVM running for 210.917)
+2021-08-10 08:59:39,668 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:59:39,673 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@2c3fd166, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@595c10b8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@31a09d68, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@67f8cd62, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@359e841a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@c7e8bc1]
+2021-08-10 08:59:39,688 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@427ca734, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@41f65a69, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@c2d809, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5915c942, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7e779053, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@da1b8e6, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1b352bcb, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6c1dbe36, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2eaa5eee, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2ecca555, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1c95a834, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1d78599e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@61d939f1, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@2af4de92, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1b1117f0, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@44fa19a5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6c44a67a, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@6048e52e]
+2021-08-10 08:59:43,193 INFO ? [restartedMain] Starting GraphqlNetflixWebfluxPocApplication using Java 11.0.10 on Alexanders-MBP.hub with PID 33325 (/Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc/target/classes started by alexanderdavies in /Users/alexanderdavies/workspace/projects/graphql-netflix-webflux-poc)
+2021-08-10 08:59:43,193 INFO ? [restartedMain] The following profiles are active: local
+2021-08-10 08:59:43,272 INFO ? [restartedMain] Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2021-08-10 08:59:43,279 INFO ? [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 2 R2DBC repository interfaces.
+2021-08-10 08:59:43,351 INFO ? [restartedMain] LiveReload server is running on port 35729
+2021-08-10 08:59:43,440 INFO ? [restartedMain] $2a$10$u/QIe51TuvUbw8uZvZBRQu/Tgn2h7ni6mp8cKypDYILgwE5h7wyhO
+2021-08-10 08:59:43,596 INFO ? [restartedMain] 
+
+Using generated security password: 21a5fb59-fba8-4110-9f19-3104d72d0f3a
+
+2021-08-10 08:59:43,599 INFO ? [restartedMain] Netty started on port 8080
+2021-08-10 08:59:43,602 INFO ? [restartedMain] Started GraphqlNetflixWebfluxPocApplication in 0.426 seconds (JVM running for 214.852)
+2021-08-10 08:59:43,603 INFO ? [restartedMain] Condition evaluation unchanged
+2021-08-10 08:59:43,608 INFO ? [restartedMain] Saving accounts to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7668c43b, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@1c434dad, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@75f2cb28, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@7739c8f5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@47409335, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto@41e89055]
+2021-08-10 08:59:43,623 INFO ? [restartedMain] Saving transactions to store: [com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1eba5e40, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@13d0980f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@3995f4c9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@41a36cd2, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@d2772f8, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@1a2093b3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@c850f82, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@561a373c, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@601c3fb5, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7e3f950e, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5ae27c54, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5dc603e3, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5c266e79, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@5e330716, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@177ad058, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@7a4e104f, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@15f4fcd9, com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto@533942c6]
