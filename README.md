@@ -1,4 +1,4 @@
-# GraphQL Netflix poc (POC)
+# GraphQL Netflix DGS POC
 The intent of this **POC** is to demonstrate the use of GraphQL DGS client in conjunction with webFlux and async R2DBC driver.
 
 ## Run
