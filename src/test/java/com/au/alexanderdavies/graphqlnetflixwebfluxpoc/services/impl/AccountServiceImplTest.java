@@ -36,20 +36,20 @@ public class AccountServiceImplTest {
 
     private String accountId;
 
+    private String customerId;
+
     private AccountDto accountDto;
 
     private Accounts accountEntity;
-
-    private Accounts savedAccountEntity;
 
     @BeforeEach
     public void setup() {
         MockitoAnnotations.openMocks(this);
 
         accountId = "hvQ3b0uom9H6LdgO90Q12345asdfg";
+        customerId = "hvQ3b0uom9H6LdgO90Q12345asdf1";
         String accountName = "Test 151324";
         int balance = 1000;
-        Long id = Long.valueOf(1);
 
         accountDto = AccountDto.builder().accountId(accountId).accountName(accountName).balance(balance).build();
 
@@ -58,8 +58,8 @@ public class AccountServiceImplTest {
     }
 
     @Test
-    @DisplayName("AccountsService: getAccounts - success")
-    public void testGetAccounts() {
+    @DisplayName("AccountsService: getAccount - success")
+    public void testGetAccount() {
 
         when(modelMapper.map(any(Accounts.class), any())).thenReturn(accountDto);
 
@@ -71,6 +71,18 @@ public class AccountServiceImplTest {
 
     @Test
     @DisplayName("AccountsService: getAccounts - success")
+    public void testGetAccounts() {
+
+        when(modelMapper.map(any(Accounts.class), any())).thenReturn(accountDto);
+
+        when(accountRepository.findAllByCustomerId(any())).thenReturn(Flux.just(accountEntity));
+
+        StepVerifier.create(accountService.getAccounts(customerId)).expectNext(accountDto).expectComplete().verify();
+
+    }
+
+    @Test
+    @DisplayName("AccountsService: createAccounts - success")
     public void testCreateAccounts() {
 
         when(modelMapper.addMappings(any())).thenReturn(null);

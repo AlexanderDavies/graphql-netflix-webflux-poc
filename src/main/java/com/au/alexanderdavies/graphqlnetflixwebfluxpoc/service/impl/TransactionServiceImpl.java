@@ -27,11 +27,21 @@ public class TransactionServiceImpl implements TransactionService {
     ModelMapper modelMapper;
 
     @Override
-    public Flux<TransactionDto> getTransactions(String accountId) {
+    public Flux<TransactionDto> getTransactionsForAccount(String accountId) {
 
         log.info("Fetching transactions for accountId: {}", accountId);
 
         return transactionRepository.findAllByAccountId(accountId)
+                .map(transactionEntity -> modelMapper.map(transactionEntity, TransactionDto.class));
+
+    }
+
+    @Override
+    public Flux<TransactionDto> getTransactionsForAccounts(List<String> accountIds) {
+
+        log.info("Fetching transactions for accountIds: {}", accountIds);
+
+        return transactionRepository.findAllByAccountIds(accountIds)
                 .map(transactionEntity -> modelMapper.map(transactionEntity, TransactionDto.class));
 
     }

@@ -1,4 +1,4 @@
-# GraphQL Netflix DGS POC
+# GraphQL Netflix POC
 The intent of this **POC** is to demonstrate the use of GraphQL DGS client in conjunction with webFlux and async R2DBC driver.
 
 ## Run
@@ -16,21 +16,26 @@ mvn spring-boot:run
 ```javascript
   // IN QUERY EDITOR
   
-  query($accountId:String!)
-  {
-    account(accountId:$accountId) 
-    {
-        accountId
-        accountName
-        balance
+  query ($customerId: String!) {
+    customer(customerId: $customerId) {
+      customerId
+      firstName
+      surname
     }
-    transactions(accountId:$accountId)
-    {
+    accounts(customerId: $customerId) {
+      accountId
+      accountName
+      balance
+      customerId
+      transactions {
         transactionId
         amount
         date
+        accountId
+      }
     }
   }
+	
 ```
 ### QUERY VARIABLES
 
@@ -38,7 +43,7 @@ mvn spring-boot:run
   // IN QUERY VARIABLES EDITOR
 
   {  
-    "accountId": "hvQ3b0uom9H6LdgO90Q12345asdfg"
+      "customerId": "hvQ3b0uom9H6LdgO90Q12345asdf1"
   }
 
 ```
@@ -47,8 +52,10 @@ mvn spring-boot:run
 ```javascript
 // IN REQUEST HEADERS TAB
 
-{
-  "Content-Type": "application/json",
-  "Authorization": "Basic YWRtaW46dGVzdDEyMzQ="
-}
+  {
+    "Content-Type": "application/json",
+    "Authorization": "Basic YWRtaW46dGVzdDEyMzQ="
+  }
 ```
+
+note: at the time of development there are known issues with setting spring.webflux.base-path property and using the graphiql client

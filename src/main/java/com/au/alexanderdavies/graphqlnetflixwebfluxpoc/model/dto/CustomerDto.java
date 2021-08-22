@@ -11,11 +11,10 @@ import lombok.Setter;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AccountDto {
+public class CustomerDto {
 
-    private String accountId;
-    private String accountName;
-    private long balance;
     private String customerId;
+    private String firstName;
+    private String surname;
      
 }

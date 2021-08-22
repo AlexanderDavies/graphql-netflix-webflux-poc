@@ -14,13 +14,12 @@ import org.springframework.data.annotation.Id;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Accounts {
+public class Customers {
 
     @Id
     private Long id = null;
-    private String accountId;
-    private String accountName;
-    private long balance;
     private String customerId;
+    private String firstName;
+    private String surname;
 
 }

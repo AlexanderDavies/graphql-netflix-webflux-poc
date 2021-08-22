@@ -8,7 +8,7 @@ import com.netflix.graphql.dgs.InputArgument;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import reactor.core.publisher.Mono;
+import reactor.core.publisher.Flux;
 
 @DgsComponent
 public class AccountDataFetcher {
@@ -16,8 +16,9 @@ public class AccountDataFetcher {
     @Autowired
     AccountService accountService;
 
-    @DgsData(parentType="Query", field="account")
-    public Mono<AccountDto> getAccount(@InputArgument("accountId") String accountId) {
-        return accountService.getAccount(accountId);
+    @DgsData(parentType="Query", field="accounts")
+    public Flux<AccountDto> getAccount(@InputArgument("customerId") String customerId) {
+
+        return accountService.getAccounts(customerId);
     }
 }

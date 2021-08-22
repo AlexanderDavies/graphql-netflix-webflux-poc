@@ -7,8 +7,10 @@ import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.AccountDto;
+import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.CustomerDto;
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto;
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.service.AccountService;
+import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.service.CustomerService;
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.service.TransactionService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,12 +34,17 @@ public class InitialiseDatabase {
         @Autowired
         TransactionService transactionService;
 
+        @Autowired
+        CustomerService customerService;
+
         @EventListener
         public void onApplicationEvent(ApplicationReadyEvent event) {
 
                 List<String> statements = List.of(
+                                "DROP TABLE IF EXISTS customers;",
+                                "CREATE table customers (id INT AUTO_INCREMENT NOT NULL, CUSTOMER_ID VARCHAR(50) NOT NULL, FIRST_NAME VARCHAR(100) NOT NULL, SURNAME VARCHAR(50) NOT NULL);",
                                 "DROP TABLE IF EXISTS accounts;",
-                                "CREATE table accounts (id INT AUTO_INCREMENT NOT NULL, ACCOUNT_ID VARCHAR(50) NOT NULL, ACCOUNT_NAME VARCHAR(100) NOT NULL, BALANCE BIGINT NOT NULL);",
+                                "CREATE table accounts (id INT AUTO_INCREMENT NOT NULL, ACCOUNT_ID VARCHAR(50) NOT NULL, ACCOUNT_NAME VARCHAR(100) NOT NULL, BALANCE BIGINT NOT NULL, CUSTOMER_ID VARCHAR(50) NOT NULL);",
                                 "DROP TABLE IF EXISTS transactions;",
                                 "CREATE table transactions (id INT AUTO_INCREMENT NOT NULL, TRANSACTION_ID VARCHAR(50) NOT NULL, AMOUNT BIGINT NOT NULL, DATE TIMESTAMP(9) NOT NULL, ACCOUNT_ID VARCHAR(50) NOT NULL);");
 
@@ -45,6 +52,11 @@ public class InitialiseDatabase {
 
                 statements.forEach(it -> template.getDatabaseClient().sql(it).fetch().rowsUpdated()
                                 .as(StepVerifier::create).expectNextCount(1).verifyComplete());
+
+                String customerId = "hvQ3b0uom9H6LdgO90Q12345asdf1";
+
+                CustomerDto customerDto = CustomerDto.builder().customerId(customerId)
+                                .firstName("test").surname("user").build();
 
                 List<String> accountIds = List.of("hvQ3b0uom9H6LdgO90Q12345asdfg", "CJfjGezjJl26pCc84yM812345asdfg",
                                 "pHbJBXxMVjHWSyZQLE1J12345asdfg", "L07Mo4I6V59RF4A76s5w12345asdfg",
@@ -58,21 +70,25 @@ public class InitialiseDatabase {
 
                         AccountDto accountDetails = AccountDto.builder()
                                         .accountName("Test Account: " + ThreadLocalRandom.current().nextLong())
-                                        .balance((long) + ThreadLocalRandom.current().nextLong()).accountId(accountId).build();
+                                        .balance(ThreadLocalRandom.current().nextLong()).accountId(accountId)
+                                        .customerId(customerId)
+                                        .build();
 
                         accounts.add(accountDetails);
 
                         for (int i = 0; i < 3; i++) {
-                                transactions.add(TransactionDto.builder().transactionId(UUID.randomUUID().toString()).accountId(accountId)
-                                                .amount(ThreadLocalRandom.current().nextLong()).date(LocalDateTime.now()).build());
+                                transactions.add(TransactionDto.builder().transactionId(UUID.randomUUID().toString())
+                                                .accountId(accountId).amount(ThreadLocalRandom.current().nextLong())
+                                                .date(LocalDateTime.now()).build());
                         }
 
                 });
 
+                customerService.createCustomers(List.of(customerDto)).subscribe();
+
                 accountService.createAccounts(accounts).subscribe();
 
                 transactionService.createTransactions(transactions).subscribe();
-
 
         }
 

@@ -1,18 +1,27 @@
 scalar DateTime
 
 type Query {
-    account(accountId: String): Account
-    transactions(accountId: String): [Transaction]
+    customer(customerId: String): Customer
+    accounts(customerId: String): [Account]
+}
+
+type Customer {
+    customerId: String
+    firstName: String
+    surname: String
 }
 
 type Account {
     accountId: String
     accountName: String
     balance: Float
+    customerId: String
+    transactions: [Transaction]
 }
 
 type Transaction {
     transactionId: String
     amount: Float
     date: DateTime
+    accountId: String
 }

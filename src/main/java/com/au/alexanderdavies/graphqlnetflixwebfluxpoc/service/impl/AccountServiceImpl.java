@@ -41,6 +41,16 @@ public class AccountServiceImpl implements AccountService {
     }
 
     @Override
+    public Flux<AccountDto> getAccounts(String customerId) {
+
+        log.info("Fetching accounts for customerId: {}", customerId);
+
+        return accountRepository.findAllByCustomerId(customerId)
+                .map(accountEntity -> modelMapper.map(accountEntity, AccountDto.class));
+    }
+
+
+    @Override
     public Flux<AccountDto> createAccounts(List<AccountDto> accounts) {
 
         log.info("Saving accounts to store: {}", accounts);

@@ -5,11 +5,9 @@ import static org.mockito.ArgumentMatchers.anyList;
 import static org.mockito.Mockito.when;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.dto.TransactionDto;
-import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.entity.Accounts;
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.model.entity.Transactions;
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.repository.TransactionRepository;
 import com.au.alexanderdavies.graphqlnetflixwebfluxpoc.service.impl.TransactionServiceImpl;
@@ -63,20 +61,32 @@ public class TransactionServiceImplTest {
     }
 
     @Test
-    @DisplayName("Transaction Service: getTransactions - success")
-    public void testGetTransactions() {
+    @DisplayName("Transaction Service: getTransactionsForAccount - success")
+    public void testGetTransactionsForAccount() {
 
         when(modelMapper.map(any(Transactions.class), any())).thenReturn(transactionDto);
 
         when(transactionRepository.findAllByAccountId(any())).thenReturn(Flux.just(transactionEntity));
 
-        StepVerifier.create(transactionService.getTransactions(accountId)).expectNext(transactionDto).expectComplete()
+        StepVerifier.create(transactionService.getTransactionsForAccount(accountId)).expectNext(transactionDto).expectComplete()
+                .verify();
+    }
+
+    @Test
+    @DisplayName("Transaction Service: getTransactionsForAccounts - success")
+    public void testGetTransactionsForAccounts() {
+
+        when(modelMapper.map(any(Transactions.class), any())).thenReturn(transactionDto);
+
+        when(transactionRepository.findAllByAccountIds(anyList())).thenReturn(Flux.just(transactionEntity));
+
+        StepVerifier.create(transactionService.getTransactionsForAccounts(List.of(accountId))).expectNext(transactionDto).expectComplete()
                 .verify();
     }
 
     @Test
     @DisplayName("Transaction Service - createTransactions - success")
-    public void testCteateTransactions() {
+    public void testCreateTransactions() {
 
         when(modelMapper.addMappings(any())).thenReturn(null);
 
